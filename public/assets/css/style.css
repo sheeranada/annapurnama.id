@@ -9,10 +9,30 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+/* warna custom */
+:root {
+    --ungu-1: #fdf4ff;
+    --ungu-2: #fae8ff;
+    --ungu-3: #f5d0fe;
+    --ungu-3-trans1: #f5d0fe;
+    --ungu-4: #f0abfc;
+    --ungu-5: #c084fc;
+    --ungu-5-trans1: #c084fcc7;
+    --ungu-6: #d946ef;
+    --ungu-7: #c026d3;
+    --ungu-8: #a21caf;
+    --ungu-9: #86198f;
+    --ungu-10: #701a75;
+    --ungu-10-trans1: rgba(112, 26, 117, 0.63);
+    --putih: white;
+    --hitam: black;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
-    background-color: #040404;
-    color: #fff;
+    background-color: #ffffff;
+    color: #ffffff;
     position: relative;
     background: transparent;
 }
@@ -72,12 +92,12 @@ h6 {
 }
 
 #header h1 {
-    font-size: 48px;
+    font-size: 50px;
     margin: 0;
     padding: 0;
     line-height: 1;
     font-weight: 700;
-    font-family: "Poppins", sans-serif;
+    font-family: "Dancing Script", sans-serif;
 }
 
 #header h1 a,
@@ -124,7 +144,7 @@ h6 {
 }
 
 #header .social-links a:hover {
-    background: #18d26e;
+    background: var(--ungu-6);
 }
 
 @media (max-width: 992px) {
@@ -155,7 +175,7 @@ h6 {
     left: 0;
     top: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.9);
+    background: var(--ungu-10-trans1);
 }
 
 #header.header-top .social-links,
@@ -247,7 +267,7 @@ h6 {
     height: 2px;
     bottom: -4px;
     left: 0;
-    background-color: #18d26e;
+    background-color: var(--ungu-6);
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -360,7 +380,7 @@ section.section-show {
 }
 
 section .container {
-    background: rgba(0, 0, 0, 0.9);
+    background: var(--ungu-3-trans1);
     padding: 30px;
 }
 
@@ -382,7 +402,7 @@ section .container {
     margin: 0 0 20px 0;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #aaaaaa;
+    color: var(--ungu-3);
     font-family: "Poppins", sans-serif;
 }
 
@@ -411,7 +431,7 @@ section .container {
 .about-me .content h3 {
     font-weight: 700;
     font-size: 26px;
-    color: #18d26e;
+    color: var(--ungu-10);
 }
 
 .about-me .content ul {
@@ -438,6 +458,7 @@ section .container {
 
 .about-me .content p:last-child {
     margin-bottom: 0;
+    color: var(--ungu-10);
 }
 
 /*--------------------------------------------------------------
@@ -1181,7 +1202,7 @@ section .container {
 }
 
 .credits a {
-    color: #18d26e;
+    color: var(--ungu-5);
     transition: 0.3s;
 }
 

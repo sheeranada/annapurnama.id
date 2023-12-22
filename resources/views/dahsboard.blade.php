@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Personal Bootstrap Template</title>
+    <title>Anna Purnama</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -16,6 +16,12 @@
     <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@100;200;300;400;600;700&display=swap"
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
@@ -63,10 +69,14 @@
             </nav><!-- .navbar -->
 
             <div class="social-links">
-                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.tiktok.com/@annapurnama.id" class="tiktok" target="_blank"><i
+                        class="bi bi-tiktok"></i></a>
+                <a href="https://www.facebook.com/princess.anna.5264" class="facebook" target="_blank"><i
+                        class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/annapurnama.id/?hl=id" class="instagram" target="_blank"><i
+                        class="bi bi-instagram"></i></a>
+                <a href="http://www.youtube.com/@annapurnamagauri" class="youtube" target="_blank"><i
+                        class="bi bi-youtube"></i></a>
             </div>
 
         </div>
